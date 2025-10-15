@@ -48,4 +48,19 @@ Replace with the token you generated in Moodle
 MOODLE_TOKEN = "YOUR_MOODLE_API_TOKEN"
 ```
 
+# Example Usage in LMStudio
+
+```
+{
+  "mcpServers": {
+    "moodlemcp": {
+      "command": "python3",
+      "args": [
+        "/path/to/your/python/file.py"
+      ]
+    }
+  }
+}
+```
+
 Last edit: 15.10.2025
