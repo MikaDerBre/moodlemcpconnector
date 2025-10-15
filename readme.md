@@ -38,8 +38,7 @@ pip install requests mcp[cli]
 3. Script Configuration
 Open the Python script and update the following configuration variables with your Moodle instance details:
 
-
-# Configuration
+```
 
 Replace with your Moodle site's URL
 
@@ -49,5 +48,6 @@ Replace with the token you generated in Moodle
 
 MOODLE_TOKEN = "YOUR_MOODLE_API_TOKEN"
 
+```
 
 Last edit: 15.10.2025
