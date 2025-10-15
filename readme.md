@@ -1,7 +1,9 @@
-Moodle Course Connector for MCP
+# Moodle Course Connector for MCP
+
+
 This Python script provides a simple interface to a Moodle instance's Web Service API. It is designed to be used as a tool provider for MCP-compatible applications like LMStudio, allowing a language model to interact with Moodle data.
 
-Features
+# Features
 List Courses: Fetches a list of all available courses, including their IDs, names, and summaries.
 
 Get Course Contents: Retrieves the detailed contents of a specific course using its ID.
@@ -10,7 +12,7 @@ Get Course Contents: Retrieves the detailed contents of a specific course using 
 
 MCP Integration: Exposes Moodle functions as tools using the FastMCP library.
 
-Prerequisites
+# Prerequisites
 Before you begin, ensure you have the following installed:
 
 Python
@@ -35,12 +37,14 @@ Open the Python script and update the following configuration variables with you
 
 Python
 
-# --- Configuration ---
+# Configuration
 
-# Replace with your Moodle site's URL
+Replace with your Moodle site's URL
+
 MOODLE_URL = "http://your-moodle-site.com" 
 
-# Replace with the token you generated in Moodle
+Replace with the token you generated in Moodle
+
 MOODLE_TOKEN = "YOUR_MOODLE_API_TOKEN"
 
 
