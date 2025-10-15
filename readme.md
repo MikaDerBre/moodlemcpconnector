@@ -39,7 +39,6 @@ pip install requests mcp[cli]
 Open the Python script and update the following configuration variables with your Moodle instance details:
 
 ```
-
 Replace with your Moodle site's URL
 
 MOODLE_URL = "http://your-moodle-site.com" 
@@ -47,7 +46,6 @@ MOODLE_URL = "http://your-moodle-site.com"
 Replace with the token you generated in Moodle
 
 MOODLE_TOKEN = "YOUR_MOODLE_API_TOKEN"
-
 ```
 
 Last edit: 15.10.2025
