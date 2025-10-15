@@ -19,6 +19,7 @@ Python
 
 The requests and mcp Python libraries.
 
+
 You will also need administrative access to a Moodle instance to enable API access and generate a token.
 
 Setup & Configuration
@@ -27,7 +28,9 @@ Follow these steps to get the script running.
 1. Installation
 Clone this repository or download the script. Then, install the required Python packages:
 
+```
 pip install requests mcp[cli]
+```
 
 2. Moodle API Setup
     Search for "Enable Web Service in moodle" on google. If you follow the instructions, you should get the token you need to use in the script.
