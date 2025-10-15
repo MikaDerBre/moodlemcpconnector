@@ -35,7 +35,6 @@ pip install requests mcp[cli]
 3. Script Configuration
 Open the Python script and update the following configuration variables with your Moodle instance details:
 
-Python
 
 # Configuration
 
